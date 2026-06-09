@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agro Forte, Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Agro Forte, Futuro Sustentável</h1>
+        <p>O equilíbrio essencial entre a produção e o meio ambiente</p>
+    </header>
+
+    <nav>
+        <a href="#equilibrio">Sustentabilidade</a>
+        <a href="#faep">FAEP e o Paraná</a>
+        <a href="#desmatamento">Desmatamento</a>
+        <a href="#quiz">Desafio Quiz</a>
+    </nav>
+
+    <div class="container">
+
+        <section id="equilibrio">
+            <h2>Equilíbrio entre Produção e Meio Ambiente</h2>
+            <p>O grande desafio do século XXI é garantir a segurança alimentar da população global sem esgotar os recursos naturais do planeta. O conceito de <strong>Agro Forte e Sustentável</strong> defende que é perfeitamente possível produzir em alta escala utilizando práticas como o plantio direto, rotação de culturas, sistemas integrados (como a Integração Lavoura-Pecuária-Floresta) e o uso de biológicos para controle de pragas.</p>
+            <div class="img-container">
+                <img src="https://images.unsplash.com/photo-1530595467537-0b5996c41f2d?auto=format&fit=crop&w=1000&q=80" alt="Plantação sustentável">
+                <p><em>Práticas agrícolas modernas aliadas à preservação das matas nativas.</em></p>
+            </div>
+        </section>
+
+        <section id="faep">
+            <h2>A Força do Campo no Paraná: O Papel da FAEP</h2>
+            <p>A <strong>FAEP (Federação da Agricultura do Estado do Paraná)</strong> desempenha um papel fundamental na organização e defesa dos produtores rurais paranaenses. O Paraná é um dos motores agrícolas do Brasil, destacando-se na produção de soja, milho e proteína animal.</p>
+            <p>Através do SENAR-PR, a FAEP promove cursos de capacitação técnica, ensinando pequenos e grandes produtores a utilizarem tecnologias que aumentam a produtividade no mesmo espaço de terra, evitando a necessidade de abertura de novas áreas e promovendo a conservação do solo e da água nas bacias hidrográficas do estado.</p>
+        </section>
+
+        <section id="desmatamento">
+            <h2>O Impacto do Desmatamento e o Agronegócio</h2>
+            <p>O desmatamento ilegal é uma das maiores ameaças à reputação e à sustentabilidade do agronegócio. Quando a vegetação nativa é removida sem critérios ou autorizações, há perda de biodiversidade, alteração no regime de chuvas (essenciais para a própria agricultura) e aumento da erosão do solo.</p>
+            <p>O agronegócio moderno e responsável entende que a floresta em pé protege as nascentes e regula o clima. No Paraná, o cumprimento rigoroso do Código Florestal e a recuperação de Áreas de Preservação Permanente (APPs) e Reservas Legais são cruciais para que o estado continue exportando para mercados internacionais exigentes.</p>
+            <div class="img-container">
+                <img src="https://images.unsplash.com/photo-1626127113110-86f78fec50f3?auto=format&fit=crop&w=1000&q=80" alt="Mata de Araucárias legítimas do Paraná">
+                <p><em>A preservação da Mata de Araucárias e ecossistemas do Paraná garante o equilíbrio hídrico para a agricultura.</em></p>
+            </div>
+        </section>
+
+        <section id="quiz" class="quiz-container">
+            <h2>Quiz Ambiental e Agrícola</h2>
+            <p>Teste seus conhecimentos sobre o equilíbrio no campo!</p>
+
+            <form id="quizForm">
+                <div class="question">1. Qual destas práticas ajuda a produzir sem desgastar o solo?</div>
+                <div class="options">
+                    <label><input type="radio" name="q1" value="A"> Queimada controlada anual</label>
+                    <label><input type="radio" name="q1" value="B"> Rotação de culturas e plantio direto</label>
+                    <label><input type="radio" name="q1" value="C"> Uso intensivo de tratores pesados sem pausa</label>
+                </div>
+
+                <div class="question">2. O que a FAEP representa no estado do Paraná?</div>
+                <div class="options">
+                    <label><input type="radio" name="q2" value="A"> Uma federação que defende e capacita os produtores rurais</label>
+                    <label><input type="radio" name="q2" value="B"> Uma empresa de venda de sementes</label>
+                    <label><input type="radio" name="q2" value="C"> Um órgão governamental de fiscalização de multas</label>
+                </div>
+
+                <div class="question">3. Por que o desmatamento prejudica a própria agricultura?</div>
+                <div class="options">
+                    <label><input type="radio" name="q3" value="A"> Porque deixa a terra bonita demais</label>
+                    <label><input type="radio" name="q3" value="B"> Porque altera o regime de chuvas e seca as nascentes de água</label>
+                    <label><input type="radio" name="q3" value="C"> Não prejudica, apenas ajuda a expandir espaço</label>
+                </div>
+
+                <button type="button" onclick="calcularResultado()">Enviar Respostas</button>
+            </form>
+
+            <div id="result"></div>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 - Projeto Agro Forte, Futuro Sustentável. Desenvolvido para a Web.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
